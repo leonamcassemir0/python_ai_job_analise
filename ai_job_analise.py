@@ -149,6 +149,3 @@ risco_por_salario['Median Salary (USD)'] = risco_por_salario['Median Salary (USD
 risco_por_salario['Automation Risk (%)'] = risco_por_salario['Automation Risk (%)'].apply(lambda x: f'{x:.2f}')
 
 risco_por_salario.sort_values('Median Salary (USD)', ascending=False)
-
-"""## Outras análises"""
-
